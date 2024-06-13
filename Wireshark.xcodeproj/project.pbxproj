@@ -11,6 +11,66 @@
 		B239334D2C0C8C8D0072CC1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239334C2C0C8C8D0072CC1D /* ContentView.swift */; };
 		B239334F2C0C8C8F0072CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B239334E2C0C8C8F0072CC1D /* Assets.xcassets */; };
 		B23933522C0C8C8F0072CC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23933512C0C8C8F0072CC1D /* Preview Assets.xcassets */; };
+		B23933592C0C8CA10072CC1D /* MainBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933582C0C8CA10072CC1D /* MainBasic.swift */; };
+		B239335B2C0C8CA80072CC1D /* MainIntermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239335A2C0C8CA80072CC1D /* MainIntermediate.swift */; };
+		B239335D2C0C8CB60072CC1D /* MainAdvance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239335C2C0C8CB60072CC1D /* MainAdvance.swift */; };
+		B239335F2C0C8CCD0072CC1D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239335E2C0C8CCD0072CC1D /* LottieView.swift */; };
+		B23933612C0C8CD80072CC1D /* BannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933602C0C8CD80072CC1D /* BannerAds.swift */; };
+		B23933692C0C8D650072CC1D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B23933682C0C8D650072CC1D /* Lottie */; };
+		B239336B2C0C993B0072CC1D /* B1_intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239336A2C0C993B0072CC1D /* B1_intro.swift */; };
+		B239336D2C0C99480072CC1D /* B2_whatis_wireshark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239336C2C0C99480072CC1D /* B2_whatis_wireshark.swift */; };
+		B239336F2C0C99540072CC1D /* B3_download.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239336E2C0C99540072CC1D /* B3_download.swift */; };
+		B23933712C0C995B0072CC1D /* B4_install.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933702C0C995B0072CC1D /* B4_install.swift */; };
+		B23933732C0C99680072CC1D /* B5_Whatis_protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933722C0C99680072CC1D /* B5_Whatis_protocol.swift */; };
+		B23933752C0C99810072CC1D /* B6_top_10_protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933742C0C99810072CC1D /* B6_top_10_protocol.swift */; };
+		B23933772C0C99910072CC1D /* B7_understand_ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933762C0C99910072CC1D /* B7_understand_ui.swift */; };
+		B23933792C0C99A20072CC1D /* B8_main_tool_item_details.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933782C0C99A20072CC1D /* B8_main_tool_item_details.swift */; };
+		B239337B2C0C99BA0072CC1D /* B9_logical_operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239337A2C0C99BA0072CC1D /* B9_logical_operators.swift */; };
+		B239337D2C0C99CE0072CC1D /* B10_filtering_packets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239337C2C0C99CE0072CC1D /* B10_filtering_packets.swift */; };
+		B239337F2C0C99E00072CC1D /* B11_comn_filtering_commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239337E2C0C99E00072CC1D /* B11_comn_filtering_commands.swift */; };
+		B23933812C0C99EE0072CC1D /* B12_start_capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933802C0C99EE0072CC1D /* B12_start_capture.swift */; };
+		B23933832C0C99FF0072CC1D /* B13_top_wireshark_filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933822C0C99FF0072CC1D /* B13_top_wireshark_filter.swift */; };
+		B23933852C0C9A8F0072CC1D /* I1_wireshark_features.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933842C0C9A8F0072CC1D /* I1_wireshark_features.swift */; };
+		B23933872C0C9AA80072CC1D /* I2_capturing_network_traffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933862C0C9AA80072CC1D /* I2_capturing_network_traffic.swift */; };
+		B23933892C0C9AB70072CC1D /* I3_display_filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933882C0C9AB70072CC1D /* I3_display_filter.swift */; };
+		B239338B2C0C9AC90072CC1D /* I4_export_n_saving_packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239338A2C0C9AC90072CC1D /* I4_export_n_saving_packet.swift */; };
+		B239338D2C0C9AE50072CC1D /* I5_analyzing_capture_packets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239338C2C0C9AE50072CC1D /* I5_analyzing_capture_packets.swift */; };
+		B239338F2C0C9AFC0072CC1D /* I6_using_wireshark_profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239338E2C0C9AFC0072CC1D /* I6_using_wireshark_profile.swift */; };
+		B23933912C0C9B370072CC1D /* I7_protocol_analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933902C0C9B370072CC1D /* I7_protocol_analysis.swift */; };
+		B23933932C0C9B4A0072CC1D /* I8_statistical_analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933922C0C9B4A0072CC1D /* I8_statistical_analysis.swift */; };
+		B23933952C0C9B5C0072CC1D /* I9_troubleshooting_network_issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933942C0C9B5C0072CC1D /* I9_troubleshooting_network_issue.swift */; };
+		B23933972C0C9B6A0072CC1D /* I10_capture_filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933962C0C9B6A0072CC1D /* I10_capture_filters.swift */; };
+		B23933992C0C9B800072CC1D /* I11_analyze_network_traffic_packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933982C0C9B800072CC1D /* I11_analyze_network_traffic_packet.swift */; };
+		B239339B2C0C9B9B0072CC1D /* I12_network_protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239339A2C0C9B9A0072CC1D /* I12_network_protocol.swift */; };
+		B239339D2C0C9BA50072CC1D /* I13_network_security.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239339C2C0C9BA50072CC1D /* I13_network_security.swift */; };
+		B239339F2C0C9BBD0072CC1D /* I14_network_security_incidents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239339E2C0C9BBD0072CC1D /* I14_network_security_incidents.swift */; };
+		B23933A12C0C9BCD0072CC1D /* I15_network_bandwidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933A02C0C9BCD0072CC1D /* I15_network_bandwidth.swift */; };
+		B23933A32C0C9BDB0072CC1D /* I16_network_latency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933A22C0C9BDB0072CC1D /* I16_network_latency.swift */; };
+		B23933A52C0C9BEE0072CC1D /* I17_pre_n_conf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933A42C0C9BEE0072CC1D /* I17_pre_n_conf.swift */; };
+		B23933A72C0C9BFD0072CC1D /* I18_tips_n_trics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933A62C0C9BFD0072CC1D /* I18_tips_n_trics.swift */; };
+		B23933A92C0C9C0F0072CC1D /* I19_wireshark_statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933A82C0C9C0F0072CC1D /* I19_wireshark_statistics.swift */; };
+		B23933AB2C0C9CF90072CC1D /* A1_arp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933AA2C0C9CF90072CC1D /* A1_arp.swift */; };
+		B23933AD2C0C9D0C0072CC1D /* A2_dhcp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933AC2C0C9D0C0072CC1D /* A2_dhcp.swift */; };
+		B23933AF2C0C9D170072CC1D /* A3_dns.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933AE2C0C9D170072CC1D /* A3_dns.swift */; };
+		B23933B12C0C9D240072CC1D /* A4_ftp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933B02C0C9D240072CC1D /* A4_ftp.swift */; };
+		B23933B32C0C9D350072CC1D /* A5_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933B22C0C9D350072CC1D /* A5_http.swift */; };
+		B23933B52C0C9D3B0072CC1D /* A6_database.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933B42C0C9D3B0072CC1D /* A6_database.swift */; };
+		B23933B72C0C9D4A0072CC1D /* A7_email.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933B62C0C9D4A0072CC1D /* A7_email.swift */; };
+		B23933B92C0C9D5A0072CC1D /* A8_iot_device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933B82C0C9D5A0072CC1D /* A8_iot_device.swift */; };
+		B23933BB2C0C9D6A0072CC1D /* A9_mobile_network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933BA2C0C9D6A0072CC1D /* A9_mobile_network.swift */; };
+		B23933BD2C0C9D790072CC1D /* A10_network_application.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933BC2C0C9D790072CC1D /* A10_network_application.swift */; };
+		B23933BF2C0C9D820072CC1D /* A11_network_scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933BE2C0C9D820072CC1D /* A11_network_scan.swift */; };
+		B23933C12C0C9D8E0072CC1D /* A12_streaming_media.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933C02C0C9D8E0072CC1D /* A12_streaming_media.swift */; };
+		B23933C32C0C9D980072CC1D /* A13_tls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933C22C0C9D980072CC1D /* A13_tls.swift */; };
+		B23933C52C0C9DAB0072CC1D /* A14_virtualized_network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933C42C0C9DAB0072CC1D /* A14_virtualized_network.swift */; };
+		B23933C72C0C9DB80072CC1D /* A15_voip_call.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933C62C0C9DB80072CC1D /* A15_voip_call.swift */; };
+		B23933C92C0C9DC50072CC1D /* A16_voip_quality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933C82C0C9DC50072CC1D /* A16_voip_quality.swift */; };
+		B23933CB2C0C9DD20072CC1D /* A17_web.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933CA2C0C9DD20072CC1D /* A17_web.swift */; };
+		B23933CD2C0C9DE60072CC1D /* A18_filter_for_advance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933CC2C0C9DE60072CC1D /* A18_filter_for_advance.swift */; };
+		B23933CF2C0C9DF40072CC1D /* A19_plugin_n_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933CE2C0C9DF40072CC1D /* A19_plugin_n_extension.swift */; };
+		B23933D12C0C9E020072CC1D /* A20_cmd_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933D02C0C9E020072CC1D /* A20_cmd_interface.swift */; };
+		B23933D32C0C9E110072CC1D /* A21_voip_analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933D22C0C9E110072CC1D /* A21_voip_analysis.swift */; };
+		B23933D52C0C9E240072CC1D /* A22_voip_security_analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933D42C0C9E240072CC1D /* A22_voip_security_analysis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +79,65 @@
 		B239334C2C0C8C8D0072CC1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B239334E2C0C8C8F0072CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23933512C0C8C8F0072CC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B23933582C0C8CA10072CC1D /* MainBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBasic.swift; sourceTree = "<group>"; };
+		B239335A2C0C8CA80072CC1D /* MainIntermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntermediate.swift; sourceTree = "<group>"; };
+		B239335C2C0C8CB60072CC1D /* MainAdvance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAdvance.swift; sourceTree = "<group>"; };
+		B239335E2C0C8CCD0072CC1D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B23933602C0C8CD80072CC1D /* BannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAds.swift; sourceTree = "<group>"; };
+		B239336A2C0C993B0072CC1D /* B1_intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1_intro.swift; sourceTree = "<group>"; };
+		B239336C2C0C99480072CC1D /* B2_whatis_wireshark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2_whatis_wireshark.swift; sourceTree = "<group>"; };
+		B239336E2C0C99540072CC1D /* B3_download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3_download.swift; sourceTree = "<group>"; };
+		B23933702C0C995B0072CC1D /* B4_install.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4_install.swift; sourceTree = "<group>"; };
+		B23933722C0C99680072CC1D /* B5_Whatis_protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_Whatis_protocol.swift; sourceTree = "<group>"; };
+		B23933742C0C99810072CC1D /* B6_top_10_protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B6_top_10_protocol.swift; sourceTree = "<group>"; };
+		B23933762C0C99910072CC1D /* B7_understand_ui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B7_understand_ui.swift; sourceTree = "<group>"; };
+		B23933782C0C99A20072CC1D /* B8_main_tool_item_details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B8_main_tool_item_details.swift; sourceTree = "<group>"; };
+		B239337A2C0C99BA0072CC1D /* B9_logical_operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B9_logical_operators.swift; sourceTree = "<group>"; };
+		B239337C2C0C99CE0072CC1D /* B10_filtering_packets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B10_filtering_packets.swift; sourceTree = "<group>"; };
+		B239337E2C0C99E00072CC1D /* B11_comn_filtering_commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B11_comn_filtering_commands.swift; sourceTree = "<group>"; };
+		B23933802C0C99EE0072CC1D /* B12_start_capture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B12_start_capture.swift; sourceTree = "<group>"; };
+		B23933822C0C99FF0072CC1D /* B13_top_wireshark_filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B13_top_wireshark_filter.swift; sourceTree = "<group>"; };
+		B23933842C0C9A8F0072CC1D /* I1_wireshark_features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I1_wireshark_features.swift; sourceTree = "<group>"; };
+		B23933862C0C9AA80072CC1D /* I2_capturing_network_traffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I2_capturing_network_traffic.swift; sourceTree = "<group>"; };
+		B23933882C0C9AB70072CC1D /* I3_display_filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I3_display_filter.swift; sourceTree = "<group>"; };
+		B239338A2C0C9AC90072CC1D /* I4_export_n_saving_packet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I4_export_n_saving_packet.swift; sourceTree = "<group>"; };
+		B239338C2C0C9AE50072CC1D /* I5_analyzing_capture_packets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I5_analyzing_capture_packets.swift; sourceTree = "<group>"; };
+		B239338E2C0C9AFC0072CC1D /* I6_using_wireshark_profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I6_using_wireshark_profile.swift; sourceTree = "<group>"; };
+		B23933902C0C9B370072CC1D /* I7_protocol_analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I7_protocol_analysis.swift; sourceTree = "<group>"; };
+		B23933922C0C9B4A0072CC1D /* I8_statistical_analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I8_statistical_analysis.swift; sourceTree = "<group>"; };
+		B23933942C0C9B5C0072CC1D /* I9_troubleshooting_network_issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I9_troubleshooting_network_issue.swift; sourceTree = "<group>"; };
+		B23933962C0C9B6A0072CC1D /* I10_capture_filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I10_capture_filters.swift; sourceTree = "<group>"; };
+		B23933982C0C9B800072CC1D /* I11_analyze_network_traffic_packet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I11_analyze_network_traffic_packet.swift; sourceTree = "<group>"; };
+		B239339A2C0C9B9A0072CC1D /* I12_network_protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I12_network_protocol.swift; sourceTree = "<group>"; };
+		B239339C2C0C9BA50072CC1D /* I13_network_security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I13_network_security.swift; sourceTree = "<group>"; };
+		B239339E2C0C9BBD0072CC1D /* I14_network_security_incidents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I14_network_security_incidents.swift; sourceTree = "<group>"; };
+		B23933A02C0C9BCD0072CC1D /* I15_network_bandwidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I15_network_bandwidth.swift; sourceTree = "<group>"; };
+		B23933A22C0C9BDB0072CC1D /* I16_network_latency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I16_network_latency.swift; sourceTree = "<group>"; };
+		B23933A42C0C9BEE0072CC1D /* I17_pre_n_conf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I17_pre_n_conf.swift; sourceTree = "<group>"; };
+		B23933A62C0C9BFD0072CC1D /* I18_tips_n_trics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I18_tips_n_trics.swift; sourceTree = "<group>"; };
+		B23933A82C0C9C0F0072CC1D /* I19_wireshark_statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I19_wireshark_statistics.swift; sourceTree = "<group>"; };
+		B23933AA2C0C9CF90072CC1D /* A1_arp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_arp.swift; sourceTree = "<group>"; };
+		B23933AC2C0C9D0C0072CC1D /* A2_dhcp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_dhcp.swift; sourceTree = "<group>"; };
+		B23933AE2C0C9D170072CC1D /* A3_dns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3_dns.swift; sourceTree = "<group>"; };
+		B23933B02C0C9D240072CC1D /* A4_ftp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A4_ftp.swift; sourceTree = "<group>"; };
+		B23933B22C0C9D350072CC1D /* A5_http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5_http.swift; sourceTree = "<group>"; };
+		B23933B42C0C9D3B0072CC1D /* A6_database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A6_database.swift; sourceTree = "<group>"; };
+		B23933B62C0C9D4A0072CC1D /* A7_email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A7_email.swift; sourceTree = "<group>"; };
+		B23933B82C0C9D5A0072CC1D /* A8_iot_device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A8_iot_device.swift; sourceTree = "<group>"; };
+		B23933BA2C0C9D6A0072CC1D /* A9_mobile_network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A9_mobile_network.swift; sourceTree = "<group>"; };
+		B23933BC2C0C9D790072CC1D /* A10_network_application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10_network_application.swift; sourceTree = "<group>"; };
+		B23933BE2C0C9D820072CC1D /* A11_network_scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11_network_scan.swift; sourceTree = "<group>"; };
+		B23933C02C0C9D8E0072CC1D /* A12_streaming_media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A12_streaming_media.swift; sourceTree = "<group>"; };
+		B23933C22C0C9D980072CC1D /* A13_tls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A13_tls.swift; sourceTree = "<group>"; };
+		B23933C42C0C9DAB0072CC1D /* A14_virtualized_network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A14_virtualized_network.swift; sourceTree = "<group>"; };
+		B23933C62C0C9DB80072CC1D /* A15_voip_call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A15_voip_call.swift; sourceTree = "<group>"; };
+		B23933C82C0C9DC50072CC1D /* A16_voip_quality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A16_voip_quality.swift; sourceTree = "<group>"; };
+		B23933CA2C0C9DD20072CC1D /* A17_web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A17_web.swift; sourceTree = "<group>"; };
+		B23933CC2C0C9DE60072CC1D /* A18_filter_for_advance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A18_filter_for_advance.swift; sourceTree = "<group>"; };
+		B23933CE2C0C9DF40072CC1D /* A19_plugin_n_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A19_plugin_n_extension.swift; sourceTree = "<group>"; };
+		B23933D02C0C9E020072CC1D /* A20_cmd_interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A20_cmd_interface.swift; sourceTree = "<group>"; };
+		B23933D22C0C9E110072CC1D /* A21_voip_analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A21_voip_analysis.swift; sourceTree = "<group>"; };
+		B23933D42C0C9E240072CC1D /* A22_voip_security_analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A22_voip_security_analysis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23933692C0C8D650072CC1D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +175,11 @@
 				B239334C2C0C8C8D0072CC1D /* ContentView.swift */,
 				B239334E2C0C8C8F0072CC1D /* Assets.xcassets */,
 				B23933502C0C8C8F0072CC1D /* Preview Content */,
+				B23933662C0C8D2F0072CC1D /* Basic */,
+				B23933652C0C8D260072CC1D /* Intermediate */,
+				B23933642C0C8D1F0072CC1D /* Advance */,
+				B23933622C0C8D130072CC1D /* Lottie */,
+				B23933632C0C8D190072CC1D /* Ads */,
 			);
 			path = Wireshark;
 			sourceTree = "<group>";
@@ -65,6 +190,100 @@
 				B23933512C0C8C8F0072CC1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B23933622C0C8D130072CC1D /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B239335E2C0C8CCD0072CC1D /* LottieView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B23933632C0C8D190072CC1D /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B23933602C0C8CD80072CC1D /* BannerAds.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B23933642C0C8D1F0072CC1D /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				B239335C2C0C8CB60072CC1D /* MainAdvance.swift */,
+				B23933AC2C0C9D0C0072CC1D /* A2_dhcp.swift */,
+				B23933AE2C0C9D170072CC1D /* A3_dns.swift */,
+				B23933B02C0C9D240072CC1D /* A4_ftp.swift */,
+				B23933B22C0C9D350072CC1D /* A5_http.swift */,
+				B23933B42C0C9D3B0072CC1D /* A6_database.swift */,
+				B23933AA2C0C9CF90072CC1D /* A1_arp.swift */,
+				B23933B62C0C9D4A0072CC1D /* A7_email.swift */,
+				B23933B82C0C9D5A0072CC1D /* A8_iot_device.swift */,
+				B23933BA2C0C9D6A0072CC1D /* A9_mobile_network.swift */,
+				B23933BC2C0C9D790072CC1D /* A10_network_application.swift */,
+				B23933BE2C0C9D820072CC1D /* A11_network_scan.swift */,
+				B23933C02C0C9D8E0072CC1D /* A12_streaming_media.swift */,
+				B23933C22C0C9D980072CC1D /* A13_tls.swift */,
+				B23933C42C0C9DAB0072CC1D /* A14_virtualized_network.swift */,
+				B23933C62C0C9DB80072CC1D /* A15_voip_call.swift */,
+				B23933C82C0C9DC50072CC1D /* A16_voip_quality.swift */,
+				B23933CA2C0C9DD20072CC1D /* A17_web.swift */,
+				B23933CC2C0C9DE60072CC1D /* A18_filter_for_advance.swift */,
+				B23933CE2C0C9DF40072CC1D /* A19_plugin_n_extension.swift */,
+				B23933D02C0C9E020072CC1D /* A20_cmd_interface.swift */,
+				B23933D22C0C9E110072CC1D /* A21_voip_analysis.swift */,
+				B23933D42C0C9E240072CC1D /* A22_voip_security_analysis.swift */,
+			);
+			path = Advance;
+			sourceTree = "<group>";
+		};
+		B23933652C0C8D260072CC1D /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				B239335A2C0C8CA80072CC1D /* MainIntermediate.swift */,
+				B23933842C0C9A8F0072CC1D /* I1_wireshark_features.swift */,
+				B23933862C0C9AA80072CC1D /* I2_capturing_network_traffic.swift */,
+				B23933882C0C9AB70072CC1D /* I3_display_filter.swift */,
+				B239338A2C0C9AC90072CC1D /* I4_export_n_saving_packet.swift */,
+				B239338C2C0C9AE50072CC1D /* I5_analyzing_capture_packets.swift */,
+				B239338E2C0C9AFC0072CC1D /* I6_using_wireshark_profile.swift */,
+				B23933902C0C9B370072CC1D /* I7_protocol_analysis.swift */,
+				B23933922C0C9B4A0072CC1D /* I8_statistical_analysis.swift */,
+				B23933942C0C9B5C0072CC1D /* I9_troubleshooting_network_issue.swift */,
+				B23933962C0C9B6A0072CC1D /* I10_capture_filters.swift */,
+				B23933982C0C9B800072CC1D /* I11_analyze_network_traffic_packet.swift */,
+				B239339A2C0C9B9A0072CC1D /* I12_network_protocol.swift */,
+				B239339C2C0C9BA50072CC1D /* I13_network_security.swift */,
+				B239339E2C0C9BBD0072CC1D /* I14_network_security_incidents.swift */,
+				B23933A02C0C9BCD0072CC1D /* I15_network_bandwidth.swift */,
+				B23933A22C0C9BDB0072CC1D /* I16_network_latency.swift */,
+				B23933A42C0C9BEE0072CC1D /* I17_pre_n_conf.swift */,
+				B23933A62C0C9BFD0072CC1D /* I18_tips_n_trics.swift */,
+				B23933A82C0C9C0F0072CC1D /* I19_wireshark_statistics.swift */,
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		B23933662C0C8D2F0072CC1D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B23933582C0C8CA10072CC1D /* MainBasic.swift */,
+				B239336A2C0C993B0072CC1D /* B1_intro.swift */,
+				B239336C2C0C99480072CC1D /* B2_whatis_wireshark.swift */,
+				B239336E2C0C99540072CC1D /* B3_download.swift */,
+				B23933702C0C995B0072CC1D /* B4_install.swift */,
+				B23933722C0C99680072CC1D /* B5_Whatis_protocol.swift */,
+				B23933742C0C99810072CC1D /* B6_top_10_protocol.swift */,
+				B23933762C0C99910072CC1D /* B7_understand_ui.swift */,
+				B23933782C0C99A20072CC1D /* B8_main_tool_item_details.swift */,
+				B239337A2C0C99BA0072CC1D /* B9_logical_operators.swift */,
+				B239337C2C0C99CE0072CC1D /* B10_filtering_packets.swift */,
+				B239337E2C0C99E00072CC1D /* B11_comn_filtering_commands.swift */,
+				B23933802C0C99EE0072CC1D /* B12_start_capture.swift */,
+				B23933822C0C99FF0072CC1D /* B13_top_wireshark_filter.swift */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +302,9 @@
 			dependencies = (
 			);
 			name = Wireshark;
+			packageProductDependencies = (
+				B23933682C0C8D650072CC1D /* Lottie */,
+			);
 			productName = Wireshark;
 			productReference = B23933472C0C8C8D0072CC1D /* Wireshark.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +333,9 @@
 				Base,
 			);
 			mainGroup = B239333E2C0C8C8D0072CC1D;
+			packageReferences = (
+				B23933672C0C8D650072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B23933482C0C8C8D0072CC1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +362,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B239337F2C0C99E00072CC1D /* B11_comn_filtering_commands.swift in Sources */,
+				B239338D2C0C9AE50072CC1D /* I5_analyzing_capture_packets.swift in Sources */,
+				B23933812C0C99EE0072CC1D /* B12_start_capture.swift in Sources */,
+				B23933AB2C0C9CF90072CC1D /* A1_arp.swift in Sources */,
+				B239335D2C0C8CB60072CC1D /* MainAdvance.swift in Sources */,
+				B23933932C0C9B4A0072CC1D /* I8_statistical_analysis.swift in Sources */,
+				B23933912C0C9B370072CC1D /* I7_protocol_analysis.swift in Sources */,
+				B23933C32C0C9D980072CC1D /* A13_tls.swift in Sources */,
+				B23933B52C0C9D3B0072CC1D /* A6_database.swift in Sources */,
+				B23933A12C0C9BCD0072CC1D /* I15_network_bandwidth.swift in Sources */,
+				B239339D2C0C9BA50072CC1D /* I13_network_security.swift in Sources */,
+				B23933A32C0C9BDB0072CC1D /* I16_network_latency.swift in Sources */,
+				B239338B2C0C9AC90072CC1D /* I4_export_n_saving_packet.swift in Sources */,
+				B23933592C0C8CA10072CC1D /* MainBasic.swift in Sources */,
+				B23933772C0C99910072CC1D /* B7_understand_ui.swift in Sources */,
+				B23933B92C0C9D5A0072CC1D /* A8_iot_device.swift in Sources */,
+				B23933612C0C8CD80072CC1D /* BannerAds.swift in Sources */,
+				B23933C92C0C9DC50072CC1D /* A16_voip_quality.swift in Sources */,
+				B23933792C0C99A20072CC1D /* B8_main_tool_item_details.swift in Sources */,
+				B239335B2C0C8CA80072CC1D /* MainIntermediate.swift in Sources */,
+				B23933CD2C0C9DE60072CC1D /* A18_filter_for_advance.swift in Sources */,
+				B23933A92C0C9C0F0072CC1D /* I19_wireshark_statistics.swift in Sources */,
+				B23933B32C0C9D350072CC1D /* A5_http.swift in Sources */,
+				B23933CB2C0C9DD20072CC1D /* A17_web.swift in Sources */,
+				B239337D2C0C99CE0072CC1D /* B10_filtering_packets.swift in Sources */,
+				B23933B72C0C9D4A0072CC1D /* A7_email.swift in Sources */,
+				B23933D32C0C9E110072CC1D /* A21_voip_analysis.swift in Sources */,
+				B23933872C0C9AA80072CC1D /* I2_capturing_network_traffic.swift in Sources */,
+				B23933C52C0C9DAB0072CC1D /* A14_virtualized_network.swift in Sources */,
+				B23933D12C0C9E020072CC1D /* A20_cmd_interface.swift in Sources */,
+				B23933C12C0C9D8E0072CC1D /* A12_streaming_media.swift in Sources */,
+				B23933992C0C9B800072CC1D /* I11_analyze_network_traffic_packet.swift in Sources */,
+				B239338F2C0C9AFC0072CC1D /* I6_using_wireshark_profile.swift in Sources */,
+				B23933A72C0C9BFD0072CC1D /* I18_tips_n_trics.swift in Sources */,
+				B239339F2C0C9BBD0072CC1D /* I14_network_security_incidents.swift in Sources */,
+				B23933BF2C0C9D820072CC1D /* A11_network_scan.swift in Sources */,
+				B23933972C0C9B6A0072CC1D /* I10_capture_filters.swift in Sources */,
+				B23933BB2C0C9D6A0072CC1D /* A9_mobile_network.swift in Sources */,
 				B239334D2C0C8C8D0072CC1D /* ContentView.swift in Sources */,
+				B23933AD2C0C9D0C0072CC1D /* A2_dhcp.swift in Sources */,
+				B23933BD2C0C9D790072CC1D /* A10_network_application.swift in Sources */,
 				B239334B2C0C8C8D0072CC1D /* WiresharkApp.swift in Sources */,
+				B239337B2C0C99BA0072CC1D /* B9_logical_operators.swift in Sources */,
+				B239336F2C0C99540072CC1D /* B3_download.swift in Sources */,
+				B23933D52C0C9E240072CC1D /* A22_voip_security_analysis.swift in Sources */,
+				B23933832C0C99FF0072CC1D /* B13_top_wireshark_filter.swift in Sources */,
+				B23933952C0C9B5C0072CC1D /* I9_troubleshooting_network_issue.swift in Sources */,
+				B23933752C0C99810072CC1D /* B6_top_10_protocol.swift in Sources */,
+				B239336D2C0C99480072CC1D /* B2_whatis_wireshark.swift in Sources */,
+				B23933712C0C995B0072CC1D /* B4_install.swift in Sources */,
+				B23933B12C0C9D240072CC1D /* A4_ftp.swift in Sources */,
+				B23933852C0C9A8F0072CC1D /* I1_wireshark_features.swift in Sources */,
+				B23933CF2C0C9DF40072CC1D /* A19_plugin_n_extension.swift in Sources */,
+				B23933AF2C0C9D170072CC1D /* A3_dns.swift in Sources */,
+				B23933A52C0C9BEE0072CC1D /* I17_pre_n_conf.swift in Sources */,
+				B239339B2C0C9B9B0072CC1D /* I12_network_protocol.swift in Sources */,
+				B23933892C0C9AB70072CC1D /* I3_display_filter.swift in Sources */,
+				B239335F2C0C8CCD0072CC1D /* LottieView.swift in Sources */,
+				B23933C72C0C9DB80072CC1D /* A15_voip_call.swift in Sources */,
+				B23933732C0C99680072CC1D /* B5_Whatis_protocol.swift in Sources */,
+				B239336B2C0C993B0072CC1D /* B1_intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B23933672C0C8D650072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B23933682C0C8D650072CC1D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B23933672C0C8D650072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B239333F2C0C8C8D0072CC1D /* Project object */;
 }
