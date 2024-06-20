@@ -111,7 +111,61 @@ struct I19_wireshark_statistics: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: nn1)
+
+                                Stext(title: nn2)
+
+                                Text3(title1: nn3, title2: nn4, title3: nn5)
+
+                                Text3(title1: nn6, title2: nn7, title3: nn8)
+
+                                Text3(title1: nn9, title2: nn10, title3: nn11)
+
+                                
+                                Text3(title1: nn12, title2: nn13, title3: nn14)
+
+                                
+                                Text3(title1: nn15, title2: nn16, title3: nn17)
+
+                                
+                                Text3(title1: nn18, title2: nn19, title3: nn20)
+
+                                
+                                Text3(title1: nn21, title2: nn22, title3: nn23)
+
+                                
+                                Text3(title1: nn24, title2: nn25, title3: nn26)
+
+                                
+                                Text3(title1: nn27, title2: nn28, title3: nn29)
+
+                                
+                                Text3(title1: nn30, title2: nn31, title3: nn32)
+
+                                Stext(title: nn33)
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

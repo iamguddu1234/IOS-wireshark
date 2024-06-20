@@ -9,7 +9,6 @@ import SwiftUI
 
 struct I3_display_filter: View {
     
-    
     let b1 = """
     Display Filters: Understanding and using display filters to analyze specific network traffic.
     """
@@ -37,20 +36,38 @@ struct I3_display_filter: View {
     let b9 = """
     Display filters provide a wide range of options to analyze specific network traffic. Some common filtering options include:
     """
+    let b10_title = """
+    -**Protocol filtering**:
+    """
     let b10 = """
     Filter packets based on specific protocols like TCP, UDP, HTTP, DNS, etc.
+    """
+    let b11_title = """
+    -**Address filtering**:
     """
     let b11 = """
     Filter packets based on IP addresses, MAC addresses, or other address attributes.
     """
+    let b12_title = """
+    -**Port filtering**:
+    """
     let b12 = """
     Filter packets based on specific source or destination port numbers.
+    """
+    let b13_title = """
+    -**Traffic direction filtering**:
     """
     let b13 = """
     Filter packets based on incoming or outgoing traffic.
     """
+    let b14_title = """
+    -**Time-based filtering**:
+    """
     let b14 = """
     Filter packets based on specific time intervals or duration.
+    """
+    let b15_title = """
+    -**Payload filtering**:
     """
     let b15 = """
     Filter packets based on the content of the packet payload, such as keywords or patterns.
@@ -61,11 +78,20 @@ struct I3_display_filter: View {
     let b17 = """
     Display filters often allow the use of logical operators to combine multiple filtering conditions. The common logical operators include:
     """
+    let b18_title = """
+    -**AND**:
+    """
     let b18 = """
     Combines two or more conditions, requiring all conditions to be true for a packet to be displayed.
     """
+    let b19_title = """
+    -**OR**:
+    """
     let b19 = """
     Combines two or more conditions, displaying packets if any of the conditions are true.
+    """
+    let b20_title = """
+    -**NOT**:
     """
     let b20 = """
     Negates a condition, displaying packets that do not match the specified condition.
@@ -79,17 +105,32 @@ struct I3_display_filter: View {
     let b23 = """
     Here are a few examples of display filters to illustrate their usage:
     """
+    let b24_title = """
+    -Filter HTTP traffic:
+    """
     let b24 = """
     `http`
+    """
+    let b25_title = """
+    Filter traffic between two IP addresses:
     """
     let b25 = """
     `ip.addr == 192.168.0.1 &amp;&amp; ip.addr == 192.168.0.2`
     """
+    let b26_title = """
+    -Filter traffic on a specific port:
+    """
     let b26 = """
     `tcp.port == 80`
     """
+    let b27_title = """
+    -Filter traffic with a specific keyword in the payload:
+    """
     let b27 = """
     `tcp contains "password"`
+    """
+    let b28_title = """
+    -Filter traffic excluding a specific protocol:
     """
     let b28 = """
     `not arp`
@@ -111,7 +152,68 @@ struct I3_display_filter: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: b1)
+                        
+                        Stext(title: b2)
+                        
+                        Text2(title1: b3, title2: b4)
+                        
+                        Text3(title1: b5, title2: b6, title3: b7)
+                        
+                        
+                        Text2(title1: b8, title2: b9)
+                        Text2(title1: b10_title, title2: b10)
+                        
+                        Text2(title1: b11_title, title2: b11)
+                        Text2(title1: b12_title, title2: b12)
+                        
+                        Text2(title1: b13_title, title2: b13)   
+                        Text2(title1: b14_title, title2: b14)
+                        
+                        Text2(title1: b15_title, title2: b15 )
+                        
+                        Text2(title1: b16, title2: b17)
+                        
+                        Text2(title1: b18_title, title2: b18)
+                        Text2(title1: b19_title, title2: b19)
+                        
+                        Text3(title1: b20_title, title2: b20, title3: b21)
+                        
+                        Text2(title1: b22, title2: b23)
+                        
+                        Text4(title1: b24_title, title2: b24, title3: b25_title, title4: b25)
+                        
+                        Text4(title1: b26_title, title2: b26, title3: b27_title, title4: b27)
+                        
+                        Text3(title1: b28_title, title2: b28, title3: b29)
+                        
+                        Text3(title1: b30, title2: b31, title3: b32)
+                        
+                        Stext(title: b33)
+                        
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

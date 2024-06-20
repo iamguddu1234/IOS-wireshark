@@ -113,7 +113,47 @@ struct I9_troubleshooting_network_issue: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: j1)
+                        
+                        Stext(title: j2)
+                        
+                        Text4(title1: j3, title2: j4, title3: j5, title4: j6)
+                        
+                        Text4(title1: j7, title2: j8, title3: j9, title4: j10)
+                        
+                        Text5(title1: j11, title2: j12, title3: j13, title4: j14, title5: j15)
+                        
+                        Text5(title1: j16, title2: j17, title3: j18, title4: j19, title5: j20)
+                        
+                        Text5(title1: j21, title2: j22, title3: j23, title4: j24, title5: j25)
+                        
+                        Text4(title1: j26, title2: j27, title3: j28, title4: j29)
+                        
+                        Text4(title1: j30, title2: j31, title3: j32, title4: j33)
+                        
+                        Stext(title: j34)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

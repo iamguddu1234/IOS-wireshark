@@ -112,7 +112,7 @@ struct A18_filter_for_advance: View {
     - To filter packets larger than 1500 bytes: `frame.len > 1500`
     """
     let ll35 = """
-    
+    - To filter packets smaller than 100 bytes: 'frame.len < 100'
     """
     let ll36 = """
     8. Error and Problem Filters:
@@ -146,7 +146,104 @@ struct A18_filter_for_advance: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: ll1)
+
+                                Stext(title: ll2)
+
+                                Text6(title1: ll3,
+                                      title2: ll4,
+                                      title3: ll5,
+                                      title4: ll6,
+                                      title5: ll7,
+                                      title6: ll8)
+
+                               
+
+                                Text7(title1: ll9,
+                                      title2: ll10,
+                                      title3: ll11,
+                                      title4: ll12,
+                                      title5: ll13,
+                                      title6: ll14,
+                                      title7: ll15)
+
+//                                Text4(title1: ll12, title2: ll13, title3: ll14, title4: ll15)
+
+                                Text4(title1: ll16, title2: ll17, title3: ll18, title4: ll19)
+
+                        
+                                Text5(title1: ll20,
+                                      title2: ll21,
+                                      title3: ll22,
+                                      title4: ll23,
+                                      title5: ll24)
+
+//                                Text3(title1: ll22, title2: ll23, title3: ll24)
+
+                                 Text3(title1: ll25, title2: ll26, title3: ll27)
+
+                                  Text4(title1: ll28, title2: ll29, title3: ll30, title4: ll31)
+
+                                   Text4(title1: ll32, title2: ll33, title3: ll34, title4: ll35)
+                        
+                        
+
+                                    Text5(title1: ll36,
+                                          title2: ll37,
+                                          title3: ll38,
+                                          title4: ll39,
+                                          title5: ll40)
+
+                                  
+                        
+
+                                      Text5(title1: ll41,      title2: ll42,
+                                            title3: ll43,
+                                            title4: ll44,
+                                            title5: ll45)
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

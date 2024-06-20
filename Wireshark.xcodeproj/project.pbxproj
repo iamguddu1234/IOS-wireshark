@@ -71,6 +71,16 @@
 		B23933D12C0C9E020072CC1D /* A20_cmd_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933D02C0C9E020072CC1D /* A20_cmd_interface.swift */; };
 		B23933D32C0C9E110072CC1D /* A21_voip_analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933D22C0C9E110072CC1D /* A21_voip_analysis.swift */; };
 		B23933D52C0C9E240072CC1D /* A22_voip_security_analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933D42C0C9E240072CC1D /* A22_voip_security_analysis.swift */; };
+		B2D167122C227919007B0F31 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167112C227919007B0F31 /* Head.swift */; };
+		B2D167142C22791E007B0F31 /* Stext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167132C22791E007B0F31 /* Stext.swift */; };
+		B2D167162C227926007B0F31 /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167152C227926007B0F31 /* Text2.swift */; };
+		B2D167182C22792C007B0F31 /* Text3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167172C22792C007B0F31 /* Text3.swift */; };
+		B2D1671A2C227932007B0F31 /* Text4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167192C227932007B0F31 /* Text4.swift */; };
+		B2D1671C2C227939007B0F31 /* Text5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1671B2C227939007B0F31 /* Text5.swift */; };
+		B2D167332C2438E1007B0F31 /* Text6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167322C2438E1007B0F31 /* Text6.swift */; };
+		B2D167352C2438E9007B0F31 /* Text7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167342C2438E8007B0F31 /* Text7.swift */; };
+		B2D167372C243B87007B0F31 /* Text10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167362C243B87007B0F31 /* Text10.swift */; };
+		B2D167392C244380007B0F31 /* Text8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167382C244380007B0F31 /* Text8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +148,16 @@
 		B23933D02C0C9E020072CC1D /* A20_cmd_interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A20_cmd_interface.swift; sourceTree = "<group>"; };
 		B23933D22C0C9E110072CC1D /* A21_voip_analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A21_voip_analysis.swift; sourceTree = "<group>"; };
 		B23933D42C0C9E240072CC1D /* A22_voip_security_analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A22_voip_security_analysis.swift; sourceTree = "<group>"; };
+		B2D167112C227919007B0F31 /* Head.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		B2D167132C22791E007B0F31 /* Stext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stext.swift; sourceTree = "<group>"; };
+		B2D167152C227926007B0F31 /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
+		B2D167172C22792C007B0F31 /* Text3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text3.swift; sourceTree = "<group>"; };
+		B2D167192C227932007B0F31 /* Text4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text4.swift; sourceTree = "<group>"; };
+		B2D1671B2C227939007B0F31 /* Text5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text5.swift; sourceTree = "<group>"; };
+		B2D167322C2438E1007B0F31 /* Text6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text6.swift; sourceTree = "<group>"; };
+		B2D167342C2438E8007B0F31 /* Text7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text7.swift; sourceTree = "<group>"; };
+		B2D167362C243B87007B0F31 /* Text10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text10.swift; sourceTree = "<group>"; };
+		B2D167382C244380007B0F31 /* Text8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +200,7 @@
 				B23933642C0C8D1F0072CC1D /* Advance */,
 				B23933622C0C8D130072CC1D /* Lottie */,
 				B23933632C0C8D190072CC1D /* Ads */,
+				B2D1671D2C228229007B0F31 /* Components */,
 			);
 			path = Wireshark;
 			sourceTree = "<group>";
@@ -286,6 +307,23 @@
 			path = Basic;
 			sourceTree = "<group>";
 		};
+		B2D1671D2C228229007B0F31 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B2D167112C227919007B0F31 /* Head.swift */,
+				B2D167132C22791E007B0F31 /* Stext.swift */,
+				B2D167152C227926007B0F31 /* Text2.swift */,
+				B2D167172C22792C007B0F31 /* Text3.swift */,
+				B2D167192C227932007B0F31 /* Text4.swift */,
+				B2D1671B2C227939007B0F31 /* Text5.swift */,
+				B2D167322C2438E1007B0F31 /* Text6.swift */,
+				B2D167342C2438E8007B0F31 /* Text7.swift */,
+				B2D167362C243B87007B0F31 /* Text10.swift */,
+				B2D167382C244380007B0F31 /* Text8.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,6 +405,7 @@
 				B23933812C0C99EE0072CC1D /* B12_start_capture.swift in Sources */,
 				B23933AB2C0C9CF90072CC1D /* A1_arp.swift in Sources */,
 				B239335D2C0C8CB60072CC1D /* MainAdvance.swift in Sources */,
+				B2D167352C2438E9007B0F31 /* Text7.swift in Sources */,
 				B23933932C0C9B4A0072CC1D /* I8_statistical_analysis.swift in Sources */,
 				B23933912C0C9B370072CC1D /* I7_protocol_analysis.swift in Sources */,
 				B23933C32C0C9D980072CC1D /* A13_tls.swift in Sources */,
@@ -375,6 +414,7 @@
 				B239339D2C0C9BA50072CC1D /* I13_network_security.swift in Sources */,
 				B23933A32C0C9BDB0072CC1D /* I16_network_latency.swift in Sources */,
 				B239338B2C0C9AC90072CC1D /* I4_export_n_saving_packet.swift in Sources */,
+				B2D167122C227919007B0F31 /* Head.swift in Sources */,
 				B23933592C0C8CA10072CC1D /* MainBasic.swift in Sources */,
 				B23933772C0C99910072CC1D /* B7_understand_ui.swift in Sources */,
 				B23933B92C0C9D5A0072CC1D /* A8_iot_device.swift in Sources */,
@@ -387,15 +427,18 @@
 				B23933B32C0C9D350072CC1D /* A5_http.swift in Sources */,
 				B23933CB2C0C9DD20072CC1D /* A17_web.swift in Sources */,
 				B239337D2C0C99CE0072CC1D /* B10_filtering_packets.swift in Sources */,
+				B2D1671C2C227939007B0F31 /* Text5.swift in Sources */,
 				B23933B72C0C9D4A0072CC1D /* A7_email.swift in Sources */,
 				B23933D32C0C9E110072CC1D /* A21_voip_analysis.swift in Sources */,
 				B23933872C0C9AA80072CC1D /* I2_capturing_network_traffic.swift in Sources */,
 				B23933C52C0C9DAB0072CC1D /* A14_virtualized_network.swift in Sources */,
 				B23933D12C0C9E020072CC1D /* A20_cmd_interface.swift in Sources */,
 				B23933C12C0C9D8E0072CC1D /* A12_streaming_media.swift in Sources */,
+				B2D167332C2438E1007B0F31 /* Text6.swift in Sources */,
 				B23933992C0C9B800072CC1D /* I11_analyze_network_traffic_packet.swift in Sources */,
 				B239338F2C0C9AFC0072CC1D /* I6_using_wireshark_profile.swift in Sources */,
 				B23933A72C0C9BFD0072CC1D /* I18_tips_n_trics.swift in Sources */,
+				B2D167142C22791E007B0F31 /* Stext.swift in Sources */,
 				B239339F2C0C9BBD0072CC1D /* I14_network_security_incidents.swift in Sources */,
 				B23933BF2C0C9D820072CC1D /* A11_network_scan.swift in Sources */,
 				B23933972C0C9B6A0072CC1D /* I10_capture_filters.swift in Sources */,
@@ -411,6 +454,7 @@
 				B23933952C0C9B5C0072CC1D /* I9_troubleshooting_network_issue.swift in Sources */,
 				B23933752C0C99810072CC1D /* B6_top_10_protocol.swift in Sources */,
 				B239336D2C0C99480072CC1D /* B2_whatis_wireshark.swift in Sources */,
+				B2D167182C22792C007B0F31 /* Text3.swift in Sources */,
 				B23933712C0C995B0072CC1D /* B4_install.swift in Sources */,
 				B23933B12C0C9D240072CC1D /* A4_ftp.swift in Sources */,
 				B23933852C0C9A8F0072CC1D /* I1_wireshark_features.swift in Sources */,
@@ -418,11 +462,15 @@
 				B23933AF2C0C9D170072CC1D /* A3_dns.swift in Sources */,
 				B23933A52C0C9BEE0072CC1D /* I17_pre_n_conf.swift in Sources */,
 				B239339B2C0C9B9B0072CC1D /* I12_network_protocol.swift in Sources */,
+				B2D1671A2C227932007B0F31 /* Text4.swift in Sources */,
 				B23933892C0C9AB70072CC1D /* I3_display_filter.swift in Sources */,
+				B2D167392C244380007B0F31 /* Text8.swift in Sources */,
 				B239335F2C0C8CCD0072CC1D /* LottieView.swift in Sources */,
 				B23933C72C0C9DB80072CC1D /* A15_voip_call.swift in Sources */,
+				B2D167162C227926007B0F31 /* Text2.swift in Sources */,
 				B23933732C0C99680072CC1D /* B5_Whatis_protocol.swift in Sources */,
 				B239336B2C0C993B0072CC1D /* B1_intro.swift in Sources */,
+				B2D167372C243B87007B0F31 /* Text10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

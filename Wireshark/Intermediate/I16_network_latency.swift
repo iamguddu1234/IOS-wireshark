@@ -135,7 +135,55 @@ struct I16_network_latency: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: k1)
+
+                                Stext(title: k2)
+
+                                Text3(title1: k3, title2: k4, title3: k5)
+
+                                Text4(title1: k6, title2: k7, title3: k8, title4: k9)
+
+                                Text3(title1: k10, title2: k11, title3: k12)
+
+                                Text4(title1: k13, title2: k14, title3: k15, title4: k16)
+
+                                Text5(title1: k17, title2: k18, title3: k19, title4: k20, title5: k21)
+
+                                Text4(title1: k22, title2: k23, title3: k24, title4: k25)
+
+                                 Text4(title1: k26, title2: k27, title3: k28, title4: k29)
+
+                                  Text4(title1: k30, title2: k31, title3: k32, title4: k33)
+
+                                  Text3(title1: k34, title2: k35, title3: k36)
+
+                                  Text4(title1: k37, title2: k38, title3: k39, title4: k40)
+
+                                  Stext(title: k41)
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

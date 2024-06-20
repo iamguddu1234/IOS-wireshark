@@ -70,7 +70,46 @@ struct I5_analyzing_capture_packets: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: d1)
+
+                              Stext(title: d2)
+
+                              Text2(title1: d3, title2: d4)
+
+                              Text3(title1: d5, title2: d6, title3: d7)
+
+                                 Text3(title1: d8, title2: d9, title3: d10)
+
+                                    Text3(title1: d11, title2: d12, title3: d13)
+
+                                       Text3(title1: d14, title2: d15, title3: d16)
+
+                                          Text3(title1: d17, title2: d18, title3: d19)
+
+                                          Stext(title: d20)
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

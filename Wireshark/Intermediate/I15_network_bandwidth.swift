@@ -114,7 +114,50 @@ struct I15_network_bandwidth: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: l1)
+
+                                Stext(title: l2)
+
+                                Text3(title1: l3, title2: l4, title3: l5)
+
+                                Text4(title1: l6, title2: l7, title3: l8, title4: l9)
+
+                                Text4(title1: l10, title2: l11, title3: l12, title4: l13)
+
+                                Text4(title1: l14, title2: l15, title3: l16, title4: l17)
+
+                                Text4(title1: l18, title2: l19, title3: l21, title4: l22)
+
+                                Text4(title1: l23, title2: l24, title3: l25, title4: l26)
+
+                                Text4(title1: l27, title2: l28, title3: l29, title4: l30)
+
+                                Text4(title1: l31, title2: l32, title3: l33, title4: l34)
+
+                                Stext(title: l35)
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

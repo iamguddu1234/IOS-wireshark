@@ -110,7 +110,60 @@ struct I6_using_wireshark_profile: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: o1)
+
+                                 Stext(title: o2)
+
+                                 Text6(title1: o3,
+                                       title2: o4,
+                                       title3: o5,
+                                       title4: o6,
+                                       title5: o7,
+                                       title6: o8)
+
+                            
+
+                                 Text4(title1: o9, title2: o10, title3: o11, title4: o12)
+
+                                 Text8(title1: o13, title2: o14, title3: o15, title4: o16,title5: o17, title6: o18, title7: o19,title8: o20)
+
+                        
+                        
+
+                                 Text5(title1: o21, title2: o22,title3: o23, title4: o24, title5: o25)
+
+                                
+
+                        
+                        
+                                 Text4(title1: o26, title2: o27, title3: o28, title4: o29)
+
+                                 Text3(title1: o30, title2: o31, title3: o32)
+
+                                 Stext(title: o33)
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

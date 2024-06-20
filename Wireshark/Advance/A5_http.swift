@@ -95,7 +95,56 @@ struct A5_http: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: g1)
+
+                                Stext(title: g2)
+
+                                Text4(title1: g3, title2: g4, title3: g5, title4: g6)
+                                
+                                Text6(title1: g7, title2: g8, title3: g9,title4: g10, title5: g11,title6: g12)
+
+                        
+                        
+
+                                 Text5(title1: g13, title2: g14,title3: g15, title4: g16, title5: g17)
+
+                        
+                        
+                        
+
+                                  Text6(title1: g18, title2: g19, title3: g20,title4: g21, title5: g22,title6: g23 )
+
+                        
+
+                        
+                        
+                                   Text4(title1: g24, title2: g25, title3: g26, title4: g27)
+
+                                   Stext(title: g28)
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

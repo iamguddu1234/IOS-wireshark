@@ -106,7 +106,48 @@ struct I8_statistical_analysis: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: m1)
+
+                                Stext(title: m2)
+
+                                Text4(title1: m3, title2: m4, title3: m5, title4: m6)
+
+                                Text4(title1: m7, title2: m8, title3: m9, title4: m10)
+
+                                Text4(title1: m11, title2: m12, title3: m13, title4: m14)
+
+                                Text4(title1: m15, title2: m16, title3: m17, title4: m18)
+
+                                Text4(title1: m19, title2: m20, title3: m21, title4: m22)
+
+                                Text4(title1: m23, title2: m24, title3: m25, title4: m26)
+
+                                Text4(title1: m27, title2: m28, title3: m29, title4: m30)
+
+                                Stext(title: m31)
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

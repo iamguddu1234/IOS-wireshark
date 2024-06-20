@@ -99,7 +99,57 @@ struct I4_export_n_saving_packet: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: n1)
+                        
+                        Stext(title: n2)
+                        
+                        Text6(title1: n3, title2: n4, title3: n5,title4: n6, title5: n7, title6: n8)
+                        
+                        
+                        
+                        
+                        Text8(title1: n9,
+                              title2: n10,
+                              title3: n11,
+                              title4: n12,
+                              title5: n13,
+                              title6: n14,
+                              title7: n15,
+                              title8: n16)
+                       
+                        
+                        
+                        
+                        Text4(title1: n17, title2: n18, title3: n19, title4: n20)
+                        
+                        Text4(title1: n21, title2: n22, title3: n23, title4: n24)
+                        
+                        Text4(title1: n25, title2: n26, title3: n27, title4: n28)
+                        
+                        Stext(title: n29)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

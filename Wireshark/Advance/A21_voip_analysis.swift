@@ -89,7 +89,67 @@ struct A21_voip_analysis: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+
+                        Head(title: i1)
+
+                             Stext(title: i2)
+
+                        
+                             Text6(title1: i3,
+                                   title2: i4,
+                                   title3: i5,
+                                   title4: i6,
+                                   title5: i7,
+                                   title6: i8)
+
+                         
+                        
+                        
+                        
+
+                               Text6(title1: i9,
+                                     title2: i10,
+                                     title3: i11,
+                                     title4: i12,
+                                     title5: i13,
+                                     title6: i14)
+
+
+                                Text7(title1: i15,
+                                      title2: i16,
+                                      title3: i17,
+                                      title4: i18,
+                                      title5: i19,
+                                      title6: i20,
+                                      title7: i21)
+
+                             
+
+                        
+                                 Text4(title1: i22, title2: i23, title3: i24, title4: i25)
+
+                                 Stext(title: i26)
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 
